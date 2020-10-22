@@ -1,0 +1,68 @@
+/* style dla znacznika blokowego nav */
+body{
+	text-align: center;
+}
+
+nav{
+    padding: 2px 0px 2px 0px;
+    margin: 0px;
+    text-align: center;
+}
+/* style dla elementu ul znajdującego się wewnątrz nav */
+nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+/* style dla pierwszego potomka ul będącego znacznikiem li i znajdującego się wewnątrz nav */
+nav ul > li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+}
+/* style dla znacznika a dla zdarzenia najechania kursorem myszy */
+menu ul > li > a:hover{
+    background: #b4e3f0;
+}
+/* formatowanie linków dla znacznika ul */
+nav ul > li > a{
+    border-radius: 10px;
+    background: #afdde9;
+    width: 120px;
+    height: 32px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000000;
+    color: white;
+}
+/* formatowanie elementów ol */
+nav ul > li > ol{
+    z-index: 1000;
+    list-style-type: none;
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
+    display: none;
+    position:absolute;
+    text-align: left;
+}
+/* style dla ol gdy kursor myszy znajdzie się nad znacznikiem li elementu ul */
+nav ul > li:hover > ol{
+    display: block;
+    background: #afdde9;
+}
+/* style dla znacznika li będącego potomkiem ol */
+nav ul > li > ol > li{
+    padding: 5px;
+    border-bottom: 1px solid #77979f;
+}
+/* formatowanie linków dla znacznika ol */
+menu ul > li > ol > li a{
+    text-decoration: none;
+    color: #77979f;
+}
+/* formatowanie znaczników li będącego potomkiem ol gdy kursor myszy znajdzie się nad elementem    li */
+nav ul > li > ol > li:hover{
+    background: #b4e3f0;
+}
