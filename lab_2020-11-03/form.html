@@ -1,0 +1,59 @@
+<html lang="pl">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Language" content="pl" />	
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<title>Ankieta</title>
+		<meta name="description" content="Rozwiązania zadań z zajęć laboratoryjnych ze Wstępu do Sieci Teleinformatycznych">
+		<meta name="keywords" content="PUT, WdST">
+		<meta name="author" content="Norman Menes, 148038">
+	</head>
+	<body bgcolor="gray">
+		<a href="../../index.html">&#127968 Strona główna</a>
+		<h1 align="center"><i><u>Ankieta</u></i></h1>
+		
+		<form name = "form" action = "mailto:norman.menes@student.put.poznan.pl" method="post">
+		<p align="center">
+			<b><i>Jak masz na imię</i></b><br>
+				<input type = "text" name = "name" placeholder = "Podaj twoje imie" required><br><br>
+			
+			<b><i>Ile masz lat?</i></b><br>
+				<input type="radio" id="to18" name="age" value="to18" required>
+					<label for="to18">do 18</label><br>
+				<input type="radio" id="19-25" name="age" value="19-25">
+					<label for="19-25">19-25</label><br>
+				<input type="radio" id="26-30" name="age" value="26-30">
+					<label for="other">26-30</label><br>
+				<input type="radio" id="30+" name="age" value="30+">
+					<label for="other">30+</label><br><br>
+				
+			
+			<b><i>Jakie masz wykształcenie?</i></b><br>
+				<select name = "education" required>
+					<option>brak
+					<option>podstawowe
+					<option>gimnazjalne
+					<option>średnie
+					<option>wyższe
+				</select><br><br>
+				
+			<b><i>Jakie masz zwierze?</i></b><br>
+				<input type="checkbox" id="dog" name="pet" value="pies">
+					<label for="vehicle1">pies</label><br>
+				<input type="checkbox" id="cat" name="pet" value="kot">
+					<label for="vehicle2">kot</label><br>
+				<input type="checkbox" id="hamster" name="pet" value="chomik">
+					<label for="vehicle3">chomik</label><br>
+				<input type="checkbox" id="fish" name="pet" value="rybki">
+					<label for="vehicle3">rybki</label><br>
+				<input type="checkbox" id="nothing" name="pet" value="nic">
+					<label for="vehicle3">żadnego</label><br>
+			
+			<b><i>Czy masz jakieś uwagi?</i></b><br>
+				<textarea name= "comments" rows = 10 cols = 50 placeholder="uwagi..."> </textarea><br><br>
+			
+			<button type="reset">Reset</button> <button type="submit">Wyślij</button>
+		</p></form>
+		
+	</body>
+</html>
