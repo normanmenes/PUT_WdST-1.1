@@ -1,0 +1,70 @@
+body {
+	background-color: lightgray;
+}
+
+table {
+	border: 5px ridge;
+	width: 750px;
+	margin: 0 auto;
+}
+
+
+.l_col {
+	vertical-align: top;
+	width: 200px;
+	color: blue;
+}
+
+.header {
+	color: black;
+	font-weight: bold;
+	font-size: 36px;
+	height: 70px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.footer {
+	height: 70px;
+	font-size: 17px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.name {
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.imag {
+	border: 3px solid;
+	height: 230px;
+	width: 150px;
+	float:right;
+	margin-right: 20px;
+}
+
+.kategoria {
+	height: 55px;
+	text-align: left;
+	vertical-align: bottom;
+	font-weight: 500;
+	font-size: 18px;
+	text-transform : uppercase;
+}
+
+.firma {
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+ul {
+	list-style-type: square;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
