@@ -3,6 +3,7 @@
 <xsl:template match="/">
 <html>
 	<body>
+		<a href="../../index.html">Strona główna</a>
 		<h2>Index</h2>
 			<table border="1">
 				<tr bgcolor="#9acd32">
