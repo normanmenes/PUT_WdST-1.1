@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--	<?xml-stylesheet type="text/xsl" href="style.xsl"?>					-->
+<!--	<?xml-stylesheet type="text/xsl" href="style.xsl"?>	-->
 
 <!DOCTYPE index [
 	<!ELEMENT index (imie,nazwisko,nr_indeks,przedmiot*)>
