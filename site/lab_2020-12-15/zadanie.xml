@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--	<?xml-stylesheet type="text/xsl" href="style.xsl"?>					-->
+
+<!DOCTYPE index [
+	<!ELEMENT index (imie,nazwisko,nr_indeks,przedmiot*)>
+	<!ELEMENT imie			(#PCDATA)>
+	<!ELEMENT nazwisko		(#PCDATA)>
+	<!ELEMENT nr_indeks		(#PCDATA)>
+	<!ELEMENT przedmiot		(nazwa,prowadzacy,godzina,ocena)>
+		<!ELEMENT nazwa			(#PCDATA)>
+		<!ELEMENT prowadzacy	(#PCDATA)>
+		<!ELEMENT godzina		(#PCDATA)>
+		<!ELEMENT ocena			(#PCDATA)>
+]>
+
+<index>
+	<imie>Norman</imie>
+	<nazwisko>Menes</nazwisko>
+	<nr_indeks>148038</nr_indeks>
+		<przedmiot>
+			<nazwa>Wstęp do Sieci Teleinformatycznych</nazwa>
+			<prowadzacy>dr Michał Sybis</prowadzacy>
+			<godzina>wtorek 2/2 - 11:45</godzina>
+			<ocena>5</ocena>
+		</przedmiot>
+		
+		<przedmiot>
+			<nazwa>Analiza mateamtyczna</nazwa>
+			<prowadzacy>dr Anna Iwaszkiewicz-Rudoszańska</prowadzacy>
+			<godzina>wtorek - 09:45</godzina>
+			<ocena>3</ocena>
+		</przedmiot>
+		
+		<przedmiot>
+			<nazwa>Algebra</nazwa>
+			<prowadzacy>dr Kinga Cichoń</prowadzacy>
+			<godzina>piątek 1/2 - 13:30</godzina>
+			<ocena>4</ocena>
+		</przedmiot>
+		
+		<przedmiot>
+			<nazwa>Algorytmy Obliczeniowe</nazwa>
+			<prowadzacy>mgr Małgorzata Wasilewska</prowadzacy>
+			<godzina>wtorek - 08:00</godzina>
+			<ocena>4</ocena>
+		</przedmiot>
+</index>
