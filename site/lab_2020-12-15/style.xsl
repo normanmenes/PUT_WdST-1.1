@@ -1,5 +1,4 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:variable name="break">&lt;br&gt;</xsl:variable>
 <xsl:template match="/">
 <html>
 	<body>
@@ -27,7 +26,7 @@
 			</table>
 		
 			
-			<xsl:value-of disable-output-escaping="yes" select=" concat(substring(@Title,1,5),$break)" />
+			<br/>
 			
 			<table border="1">
 				<tr bgcolor="#9acd32">
@@ -54,9 +53,9 @@
 			</xsl:for-each>
 			</table>
 			
-			<xsl:value-of disable-output-escaping="yes" select=" concat(substring(@Title,1,5),$break, $break)" />
+			<br> </br>
 			<a href="zadanie.xml">plik XML</a>
-			<xsl:value-of disable-output-escaping="yes" select=" concat(substring(@Title,1,5),$break, $break)" />
+			<br> </br>
 			<a href="style.xsl">plik XSL</a>
 	</body>
 </html>
