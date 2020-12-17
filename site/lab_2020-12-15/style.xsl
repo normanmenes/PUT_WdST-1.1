@@ -53,9 +53,9 @@
 			</xsl:for-each>
 			</table>
 			
-			<br>
+			<br/>
 			<a href="zadanie.xml">plik XML</a>
-			<br> <br>
+			<br/> <br/>
 			<a href="style.xsl">plik XSL</a>
 	</body>
 </html>
